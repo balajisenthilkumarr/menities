@@ -1,20 +1,10 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		iphone_14___15_pro___1
-	 *	@date 		Saturday 20th of April 2024 08:13:13 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+
 	<ScrollView android:id="@+id/iphone_14___15_pro___1" 
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
@@ -32,17 +22,18 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__iphone_14___15_pro___1_ek2"
-					android:background="@drawable/_bg__iphone_14___15_pro___1_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__iphone_14___15_pro___1_ek2"
 					android:layout_width="411dp"
-					android:layout_height="893dp" />
+					android:layout_height="893dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__iphone_14___15_pro___1_ek2_shape" />
 
 				<EditText   android:id="@+id/rectangle_2"
 					android:background="@drawable/rectangle_2_shape"
 					 android:layout_marginStart="39dp"
 					android:layout_marginTop="316dp"
+
 					android:hint="   Enter -mailId"
 					android:layout_width="315dp"
 					android:layout_height="56dp" />
@@ -55,37 +46,17 @@
 					android:hint="    Password"
 					android:layout_height="56dp" />
 
-				<ImageButton  android:id="@+id/_rectangle_4"
-					android:background="@drawable/_rectangle_4_shape"
-					 android:alpha="0.88999998569489"
-					 android:layout_marginStart="39dp"
-					android:layout_marginTop="538dp"
+				<ImageButton
+					android:id="@+id/_rectangle_4"
 					android:layout_width="315dp"
-					android:layout_height="56dp" />
-
-				<TextView android:id="@+id/log_in"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="22.86sp"
-					android:textColor="@color/log_in_color"
-					android:layout_marginLeft="144dp"
-					android:layout_marginTop="550dp"
-					android:layout_width="103dp"
-					android:layout_height="38.33575630188dp"
-					android:text="@string/log_in_string"
-					 />
-
-				<TextView android:id="@+id/forgot_your_password_"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="19.14sp"
-					android:textColor="@color/log_in_color"
-					android:layout_marginLeft="143dp"
-					android:layout_marginTop="488dp"
-					android:layout_width="215dp"
-					android:layout_height="28.914129447937dp"
-					android:text="@string/forgot_your_password__string"
-					 />
+					android:layout_height="56dp"
+					android:layout_marginStart="39dp"
+					android:layout_marginTop="547dp"
+					android:alpha="0.88999998569489"
+					android:background="@drawable/_rectangle_4_shape"
+					android:textAlignment="center"
+					android:visibility="visible"
+					tools:ignore="SpeakableTextPresentCheck" />
 
 				<TextView android:id="@+id/welcome"
 					android:textStyle="bold"
@@ -103,6 +74,23 @@
 					android:layout_height="51.6dp"
 					android:text="@string/welcome_string"
 					 />
+
+				<TextView
+					android:id="@+id/login"
+					android:layout_width="206dp"
+					android:layout_height="51.6dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="90dp"
+					android:layout_marginTop="542dp"
+					android:gravity="center"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="4"
+					android:shadowRadius="4"
+					android:text="Login"
+					android:textColor="@color/log_in_color"
+					android:textSize="36sp"
+					android:textStyle="bold" />
 
 				<TextView android:id="@+id/please_log_in_to_access_your_account_"
 					android:layout_gravity="center_horizontal|center"
@@ -144,109 +132,48 @@
 					android:text="@string/or_continue_with_string"
 					 />
 
-				<View   android:id="@+id/rectangle_5"
-					android:background="@drawable/rectangle_5_shape"
-					 android:layout_marginStart="39dp"
-					android:layout_marginTop="703dp"
+				<View
+					android:id="@+id/rectangle_5"
 					android:layout_width="140.46dp"
-					android:layout_height="56dp" />
-
-				<ImageView android:id="@+id/rectangle_6"
-					android:src="@drawable/rectangle_6"
-					android:contentDescription="rectangle_6"
-					 android:layout_marginStart="208dp"
+					android:layout_height="56dp"
+					android:layout_alignParentEnd="true"
+					android:layout_marginStart="39dp"
 					android:layout_marginTop="703dp"
-					android:layout_width="140.46dp"
-					android:layout_height="56dp" />
+					android:layout_marginEnd="150dp"
+					android:background="@drawable/rectangle_5_shape" />
 
-				<ImageView android:id="@+id/google_logo"
-					android:src="@drawable/google_logo"
-					android:contentDescription="google_logo"
-					 android:layout_marginStart="55dp"
-					android:layout_marginTop="695dp"
-					android:layout_width="34.69dp"
-					android:layout_height="71dp" />
-
-				<TextView android:id="@+id/google"
+				<TextView android:id="@+id/signuplogin"
 					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
+					android:layout_marginEnd="500dp"
 					android:textSize="19.73sp"
 					android:textColor="@color/e_mail_or_username_color"
-					android:layout_marginLeft="88dp"
-					android:layout_marginTop="718dp"
+					android:layout_marginLeft="150dp"
+					android:layout_marginTop="714dp"
 					android:layout_width="84.042771835327dp"
 					android:layout_height="31.972771835327dp"
-					android:text="@string/google_string"
+					android:text="Sign up"
+					android:textStyle="bold"
 					 />
-
-				<TextView android:id="@+id/outlook"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="19.73sp"
-					android:textColor="@color/e_mail_or_username_color"
-					android:layout_marginLeft="258dp"
-					android:layout_marginTop="718dp"
-					android:layout_width="84.042771835327dp"
-					android:layout_height="31.972771835327dp"
-					android:text="@string/outlook_string"
-					 />
-
-				<ImageView android:id="@+id/logo_outlook_34060_1"
-					android:src="@drawable/logo_outlook_34060_1"
-					android:contentDescription="logo_outlook_34060_1"
-					 android:layout_marginStart="212dp"
-					android:layout_marginTop="715dp"
-					android:layout_width="48dp"
-					android:layout_height="31dp" />
-
-
-				<RelativeLayout android:id="@+id/graduation_cap"
-					android:layout_marginTop="40dp"
-					android:layout_marginStart="109dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<View   android:id="@+id/_bg__graduation_cap_ek1"
-						android:background="@drawable/_bg__graduation_cap_ek1_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="90dp"
-						android:layout_height="111.38dp" />
-
-					<ImageView android:id="@+id/graduation_cap_container"
-						android:src="@drawable/graduation_cap_container"
-						android:contentDescription="graduation_cap_container"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="10dp"
-						android:layout_width="90dp"
-						android:layout_height="90dp" />
-
-				</RelativeLayout>
-
 
 				<RelativeLayout android:id="@+id/graduation_cap_ek2"
 					android:layout_marginTop="49dp"
 					android:layout_marginStart="106dp"
 					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
+					android:layout_height="wrap_content">
 
 					<View   android:id="@+id/_bg__graduation_cap_ek3"
 						android:background="@drawable/_bg__graduation_cap_ek3_shape"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="90dp"
+						android:layout_height="90dp" />
+					<View android:id="@+id/_bg__graduation_cap_ek4"
+						android:background="@drawable/graduation_cap_container"
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="90dp"
 						android:layout_height="90dp" />
-
-					<ImageView android:id="@+id/graduation_cap_container_ek1"
-						android:src="@drawable/graduation_cap_container_ek1"
-						android:contentDescription="graduation_cap_container_ek1"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="10dp"
-						android:layout_width="90dp"
-						android:layout_height="90dp" />
-
 				</RelativeLayout>
 
 
@@ -254,7 +181,7 @@
 					android:layout_marginTop="67dp"
 					android:layout_marginStart="227dp"
 					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
+					android:layout_height="100dp"
 					>
 
 					<View   android:id="@+id/_bg__graduation_cap_ek5"
@@ -273,6 +200,32 @@
 						android:layout_height="90dp" />
 
 				</RelativeLayout>
+
+				<RadioGroup
+					android:layout_width="329dp"
+					android:layout_height="73dp"
+					android:layout_alignParentStart="true"
+					android:layout_marginStart="39dp"
+					android:layout_marginTop="470dp"
+					android:layout_marginBottom="409dp"
+					android:orientation="horizontal"
+					android:id="@+id/loginratiogrup">
+
+					<RadioButton
+						android:id="@+id/radioButton2"
+						android:layout_width="149dp"
+						android:layout_height="62dp"
+						android:background="@drawable/rectangle_3_shape"
+						android:text="Menties" />
+
+					<RadioButton
+						android:id="@+id/rmentor"
+						android:layout_width="149dp"
+						android:layout_height="62dp"
+						android:background="@drawable/rectangle_3_shape"
+						android:text="Mentar" />
+
+				</RadioGroup>
 
 			</RelativeLayout>
 		</RelativeLayout>
